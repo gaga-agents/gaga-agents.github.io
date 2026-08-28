@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "V2",
+    "description": "The label for version current"
+  },
+  "sidebar.platformSidebar.category.认识平台": {
+    "message": "Understand the platform",
+    "description": "The label for category '认识平台' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.快速启动": {
+    "message": "Get started",
+    "description": "The label for category '快速启动' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.基础资源": {
+    "message": "Core resources",
+    "description": "The label for category '基础资源' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.单智能体开发": {
+    "message": "Single-agent development",
+    "description": "The label for category '单智能体开发' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.多智能体编排": {
+    "message": "Multi-agent orchestration",
+    "description": "The label for category '多智能体编排' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.交付与运维": {
+    "message": "Delivery and operations",
+    "description": "The label for category '交付与运维' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.最佳实践": {
+    "message": "Best practices",
+    "description": "The label for category '最佳实践' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.参考": {
+    "message": "Reference",
+    "description": "The label for category '参考' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.doc.平台简介": {
+    "message": "Platform overview",
+    "description": "The label for the doc item '平台简介' in sidebar 'platformSidebar', linking to the doc intro"
+  },
+  "sidebar.platformSidebar.category.教程": {
+    "message": "Tutorial",
+    "description": "The label for category '教程' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.模型与上下文": {
+    "message": "Models and context",
+    "description": "The label for category '模型与上下文' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.工具与协议": {
+    "message": "Tools and protocols",
+    "description": "The label for category '工具与协议' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.工作流模式": {
+    "message": "Workflow patterns",
+    "description": "The label for category '工作流模式' in sidebar 'platformSidebar'"
+  },
+  "sidebar.platformSidebar.category.特性与评测": {
+    "message": "Features and evaluation",
+    "description": "The label for category '特性与评测' in sidebar 'platformSidebar'"
+  }
+}

@@ -1,0 +1,44 @@
+.page {
+  min-height: 70vh;
+  padding: 5rem 0 7rem;
+  background:
+    radial-gradient(circle at 90% 4%, rgb(31 153 166 / 10%), transparent 24rem),
+    var(--ifm-background-color);
+}
+
+.heading {
+  max-width: 760px;
+  margin-bottom: 3rem;
+}
+
+.heading > span {
+  color: var(--ifm-color-primary);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.heading h1 {
+  margin: 0.5rem 0 1rem;
+  color: var(--gaga-heading);
+  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  letter-spacing: -0.05em;
+}
+
+.heading p,
+.note p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.note {
+  max-width: 760px;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--gaga-border-strong);
+}
+
+.note h2 {
+  color: var(--gaga-heading);
+}

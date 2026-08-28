@@ -1,0 +1,440 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 6.5rem 0 5.5rem;
+  background:
+    radial-gradient(circle at 83% 12%, rgb(40 158 170 / 17%), transparent 26rem),
+    radial-gradient(circle at 12% 90%, rgb(245 160 36 / 12%), transparent 24rem),
+    linear-gradient(145deg, #f8fcff 0%, #fff 55%, #f5fbfb 100%);
+  border-bottom: 1px solid var(--gaga-border);
+}
+
+[data-theme='dark'] .hero {
+  background:
+    radial-gradient(circle at 83% 12%, rgb(40 158 170 / 16%), transparent 26rem),
+    radial-gradient(circle at 12% 90%, rgb(245 160 36 / 8%), transparent 24rem),
+    linear-gradient(145deg, #091925 0%, #0c2232 58%, #0b1d25 100%);
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(330px, 0.82fr);
+  gap: 5rem;
+  align-items: center;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.eyebrow span {
+  padding: 0.25rem 0.55rem;
+  color: #fff;
+  background: var(--ifm-color-primary);
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+}
+
+.hero h1 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--gaga-heading);
+  font-size: clamp(2.75rem, 5.6vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.055em;
+}
+
+.heroCopy > p {
+  max-width: 650px;
+  margin: 1.6rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.14rem;
+  line-height: 1.85;
+}
+
+.heroActions {
+  display: flex;
+  align-items: center;
+  gap: 1.35rem;
+  margin-top: 2.3rem;
+}
+
+.heroActions :global(.button) {
+  padding: 0.9rem 1.4rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgb(30 116 172 / 22%);
+}
+
+.secondaryAction {
+  color: var(--gaga-heading);
+  font-weight: 700;
+}
+
+.secondaryAction:hover {
+  text-decoration: none;
+}
+
+.secondaryAction span {
+  display: inline-block;
+  transition: transform 150ms ease;
+}
+
+.secondaryAction:hover span {
+  transform: translateX(4px);
+}
+
+.heroVisual {
+  position: relative;
+  padding: 1rem;
+}
+
+.heroVisual::before {
+  position: absolute;
+  inset: -12%;
+  z-index: 0;
+  content: '';
+  background-image: radial-gradient(var(--gaga-dot) 1px, transparent 1px);
+  background-size: 18px 18px;
+  mask-image: linear-gradient(to bottom, #000, transparent 85%);
+}
+
+.logoCard,
+.signalGrid,
+.heroDiagramCard {
+  position: relative;
+  z-index: 1;
+}
+
+.heroDiagramCard {
+  overflow: hidden;
+  padding: 1rem;
+  background: rgb(255 255 255 / 92%);
+  border: 1px solid rgb(255 255 255 / 90%);
+  border-radius: 24px;
+  box-shadow: 0 30px 70px rgb(13 56 85 / 15%);
+  backdrop-filter: blur(14px);
+}
+
+[data-theme='dark'] .heroDiagramCard {
+  background: rgb(14 38 54 / 94%);
+  border-color: rgb(87 153 183 / 22%);
+}
+
+.platformLabel {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.3rem 0.35rem 0.9rem;
+}
+
+.platformLabel span {
+  color: var(--ifm-color-primary);
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.platformLabel strong {
+  color: var(--gaga-heading);
+  font-size: 0.9rem;
+}
+
+.heroDiagram {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--gaga-border);
+  border-radius: 14px;
+}
+
+.logoCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.4rem;
+  background: rgb(255 255 255 / 88%);
+  border: 1px solid rgb(255 255 255 / 90%);
+  border-radius: 24px;
+  box-shadow: 0 30px 70px rgb(13 56 85 / 15%);
+  backdrop-filter: blur(14px);
+}
+
+[data-theme='dark'] .logoCard {
+  background: rgb(14 38 54 / 86%);
+  border-color: rgb(87 153 183 / 22%);
+}
+
+.logoCard img {
+  width: 116px;
+  height: 116px;
+  object-fit: contain;
+}
+
+.logoCard div {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoCard small {
+  color: var(--ifm-color-primary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+}
+
+.logoCard strong {
+  margin-top: 0.45rem;
+  color: var(--gaga-heading);
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.signalGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+  margin-top: 0.8rem;
+}
+
+.signalGrid > div {
+  display: flex;
+  min-height: 104px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--gaga-border);
+  border-radius: 16px;
+}
+
+.signalGrid b {
+  color: var(--gaga-heading);
+  font-size: 1.55rem;
+}
+
+.signalGrid span {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.section {
+  padding: 6rem 0;
+}
+
+.sectionHeading {
+  max-width: 690px;
+}
+
+.sectionHeading > span {
+  color: var(--ifm-color-primary);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.sectionHeading h2 {
+  margin: 0.55rem 0 0;
+  color: var(--gaga-heading);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  letter-spacing: -0.04em;
+}
+
+.sectionHeading p {
+  margin: 1rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.capabilityGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2.4rem;
+}
+
+.capabilityCard {
+  position: relative;
+  overflow: hidden;
+  min-height: 280px;
+  padding: 2rem;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--gaga-border);
+  border-radius: 20px;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.capabilityCard::after {
+  position: absolute;
+  right: -56px;
+  bottom: -70px;
+  width: 180px;
+  height: 180px;
+  content: '';
+  background: radial-gradient(circle, rgb(45 146 190 / 12%), transparent 68%);
+  border-radius: 50%;
+}
+
+.capabilityCard:hover {
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  border-color: var(--ifm-color-primary-light);
+  box-shadow: 0 18px 42px rgb(15 53 82 / 10%);
+  transform: translateY(-3px);
+}
+
+.capabilityNumber {
+  display: block;
+  color: var(--ifm-color-primary);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.capabilityCard h3 {
+  margin: 2rem 0 0.7rem;
+  color: var(--gaga-heading);
+  font-size: 1.45rem;
+}
+
+.capabilityCard p {
+  max-width: 500px;
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.75;
+}
+
+.cardLink {
+  position: absolute;
+  bottom: 1.7rem;
+  color: var(--ifm-color-primary);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.lifecycleSection {
+  background: var(--gaga-surface-muted);
+  border-block: 1px solid var(--gaga-border);
+}
+
+.lifecycleGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(380px, 1.15fr);
+  gap: 6rem;
+  align-items: start;
+}
+
+.lifecycle {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--gaga-border-strong);
+}
+
+.lifecycle li {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 1.2rem;
+  align-items: center;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--gaga-border-strong);
+}
+
+.lifecycle li > span {
+  color: var(--ifm-color-primary);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.lifecycle li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.lifecycle strong {
+  color: var(--gaga-heading);
+  font-size: 1.15rem;
+}
+
+.lifecycle small {
+  margin-top: 0.2rem;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.92rem;
+}
+
+.contributorHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contributorHeading > a {
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+@media (max-width: 996px) {
+  .hero {
+    padding: 4.5rem 0;
+  }
+
+  .heroGrid,
+  .lifecycleGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .heroVisual {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 2.7rem;
+  }
+
+  .heroActions,
+  .contributorHeading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .capabilityGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .capabilityCard {
+    min-height: 260px;
+  }
+
+  .logoCard {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .logoCard img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .signalGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .signalGrid > div {
+    min-height: 82px;
+  }
+}

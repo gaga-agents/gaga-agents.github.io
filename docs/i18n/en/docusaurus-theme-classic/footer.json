@@ -1,0 +1,58 @@
+{
+  "link.title.开始使用": {
+    "message": "Get started",
+    "description": "The title of the footer links column with title=开始使用 in the footer"
+  },
+  "link.title.核心能力": {
+    "message": "Core capabilities",
+    "description": "The title of the footer links column with title=核心能力 in the footer"
+  },
+  "link.title.项目": {
+    "message": "Project",
+    "description": "The title of the footer links column with title=项目 in the footer"
+  },
+  "link.item.label.平台概览": {
+    "message": "Platform overview",
+    "description": "The label of footer link with label=平台概览 linking to /versions/2.0/intro"
+  },
+  "link.item.label.快速启动": {
+    "message": "Quickstart",
+    "description": "The label of footer link with label=快速启动 linking to /versions/2.0/getting-started/first-agent"
+  },
+  "link.item.label.部署平台": {
+    "message": "Deploy the platform",
+    "description": "The label of footer link with label=部署平台 linking to /versions/2.0/getting-started/deploy-platform"
+  },
+  "link.item.label.配置智能体": {
+    "message": "Configure agents",
+    "description": "The label of footer link with label=配置智能体 linking to /versions/2.0/agents/configuration"
+  },
+  "link.item.label.多智能体编排": {
+    "message": "Multi-agent orchestration",
+    "description": "The label of footer link with label=多智能体编排 linking to /versions/2.0/orchestration/design"
+  },
+  "link.item.label.知识库": {
+    "message": "Knowledge base",
+    "description": "The label of footer link with label=知识库 linking to /versions/2.0/resources/knowledge-base"
+  },
+  "link.item.label.平台架构": {
+    "message": "Architecture",
+    "description": "The label of footer link with label=平台架构 linking to /versions/2.0/overview/architecture"
+  },
+  "link.item.label.贡献者": {
+    "message": "Contributors",
+    "description": "The label of footer link with label=贡献者 linking to /contributors"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 gagaduck-agents-platform contributors.",
+    "description": "The footer copyright"
+  },
+  "link.item.label.前端仓库": {
+    "message": "Frontend repository",
+    "description": "The label of footer link with label=前端仓库 linking to https://github.com/gagaducko/gagaduck-agents-platform-frontend"
+  },
+  "link.item.label.后端仓库": {
+    "message": "Backend repository",
+    "description": "The label of footer link with label=后端仓库 linking to https://github.com/gagaducko/gagaduck-agents-platform-backend"
+  }
+}

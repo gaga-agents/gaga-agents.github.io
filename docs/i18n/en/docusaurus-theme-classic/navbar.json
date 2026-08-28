@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "gagaduck-agents-platform",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "gagaduck-agents-platform",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.文档": {
+    "message": "Documentation",
+    "description": "Navbar item with label 文档"
+  },
+  "item.label.产品架构": {
+    "message": "Architecture",
+    "description": "Navbar item with label 产品架构"
+  },
+  "item.label.贡献者": {
+    "message": "Contributors",
+    "description": "Navbar item with label 贡献者"
+  },
+  "item.label.前端仓库": {
+    "message": "Frontend",
+    "description": "Navbar item with label 前端仓库"
+  },
+  "item.label.后端仓库": {
+    "message": "Backend",
+    "description": "Navbar item with label 后端仓库"
+  }
+}

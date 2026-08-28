@@ -1,0 +1,9 @@
+# The gaga-agents.github.io repository is intentionally a documentation-only publish repo.
+# Keep the platform backend, frontend, infrastructure, local environments and temporary files out.
+*
+!/.gitignore
+!/docs/
+!/docs/**
+!/.github/
+!/.github/workflows/
+!/.github/workflows/docs-pages.yml
