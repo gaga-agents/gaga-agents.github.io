@@ -25,3 +25,5 @@ First validate identity, instruction, and model. Add one capability at a time an
 ## Versioning
 
 Treat instruction, model assignment, capability set, and runtime parameters as one release unit. Before building, capture representative tests and expected behavior. A version number is useful only when the associated configuration and test evidence can be recovered.
+
+After saving, use [Agent debugging and session execution](./debugging.md) to validate Sessions, steps, tool calls, and failures before building.

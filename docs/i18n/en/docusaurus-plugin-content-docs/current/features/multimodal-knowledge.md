@@ -7,6 +7,8 @@ description: Define the extension path from text retrieval to image and vision-b
 
 The current Knowledge Base UI mainly uploads PDF, DOCX, DOC, TXT, and MD. The message protocol already accepts image blocks and agent LLM configuration includes `supports_vision`. This is an extension boundary, not a claim that image embedding is already enabled end to end.
 
+For a user uploading an image in one conversation and asking a vision model to analyze it, use the implemented [Multimodal Agent input](../agents/multimodal-input.md) path. This page concerns parsing, indexing, and retrieving long-lived knowledge sources.
+
 ```text
 Image or PDF page
       ↓ visual reader: OCR, layout, charts, descriptions

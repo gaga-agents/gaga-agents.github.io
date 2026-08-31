@@ -49,14 +49,17 @@ const sidebars = {
     {
       type: 'category',
       label: '工具与协议',
-      items: ['tutorial/tools-mcp-skills'],
+      items: ['tutorial/tools-mcp-skills', 'resources/mcp'],
     },
     {
       type: 'category',
       label: '单智能体开发',
       items: [
         'agents/configuration',
+        'agents/multimodal-input',
+        'agents/file-workspace',
         'agents/runtime-memory',
+        'agents/tool-calls-confirmation',
         'agents/debugging',
       ],
     },
@@ -82,7 +85,12 @@ const sidebars = {
     {
       type: 'category',
       label: '交付与运维',
-      items: ['delivery/build-deploy', 'operations/observability'],
+      items: [
+        'delivery/agent-build',
+        'delivery/build-deploy',
+        'operations/authentication-authorization',
+        'operations/observability',
+      ],
     },
     {
       type: 'category',

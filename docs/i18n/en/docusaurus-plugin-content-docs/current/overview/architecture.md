@@ -31,4 +31,4 @@ State is distributed by responsibility:
 
 This boundary matters during local development: starting a Python microservice makes its own API available, but the complete Web workflow still requires Gateway routing.
 
-See [Design advantages](./design-principles.md) for the execution boundaries and [Runtime contracts](../reference/contracts.md) before integrating a client or service.
+See [Design advantages](./design-principles.md) for the execution boundaries, then review [Authentication and authorization](../operations/authentication-authorization.md) and [Runtime contracts](../reference/contracts.md) before integrating a client or service.
