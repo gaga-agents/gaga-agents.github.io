@@ -41,4 +41,4 @@ gagaduck-agents-platform 采用前后端分离和微服务架构。平台按职�
 
 新增能力时优先通过明确的服务或 Skills 契约接入，并保持项目归属、超时、错误结构、执行记录和权限检查一致。直接在前端拼接内部服务地址会绕过网关和治理边界，不应作为正式集成方式。
 
-这些边界在[平台设计亮点](./design-principles.md)中展开；对接前端或第三方服务时，请同时参考[运行时契约](../reference/contracts.md)。
+这些边界在[平台设计亮点](./design-principles.md)中展开；对接前端或第三方服务时，请同时参考[身份认证与权限控制](../operations/authentication-authorization.md)和[运行时契约](../reference/contracts.md)。

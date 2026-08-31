@@ -7,6 +7,8 @@ description: Convert a tested agent configuration into a traceable runtime relea
 
 A release should connect four things: source configuration, build artifact, deployed runtime, and verification evidence. If any link is missing, a team cannot reliably reproduce or roll back the behavior.
 
+This page covers the general delivery workflow. See [Agent builds](./agent-build.md) for Builder run modes, resource packaging, code generation, states, and troubleshooting.
+
 ## Before building
 
 - Confirm the selected agent version and project.

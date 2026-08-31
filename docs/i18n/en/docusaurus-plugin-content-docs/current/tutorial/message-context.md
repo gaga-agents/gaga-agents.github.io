@@ -30,3 +30,5 @@ A tool execution usually contains user message → assistant `tool_use` → tool
 ## Current boundary
 
 The message model is ready for image and document blocks, but the Knowledge Base upload page currently accepts PDF, DOCX, DOC, TXT, and MD and primarily processes text, vector retrieval, and graph retrieval. A production multimodal knowledge base still needs a visual reader, multimodal embedding, storage, and a vision-capable model. See [Multimodal knowledge design](../features/multimodal-knowledge.md).
+
+To send screenshots, photographs, or diagrams directly to an Agent in a debug session, see [Multimodal Agent input](../agents/multimodal-input.md) for configuration, upload flow, memory behavior, and troubleshooting.

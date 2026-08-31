@@ -5,6 +5,8 @@ description: 区分内置工具、机理模型工具、外部 Skill 与协议适
 
 # 工具、MCP 与 Skills
 
+本页说明三类能力的关系与选择方式；工具的实际选择、参数、人工确认、失败重试和审计见[工具调用与安全确认](../agents/tool-calls-confirmation.md)。
+
 平台把能力分成三类：内置文件与工作空间工具、工具管理服务中的可复用工具包，以及外部通用 Skills。MCP 或其他协议适配属于连接外部能力的实现方式，不应与业务工具本身混为一谈。
 
 ## 能力选择
@@ -15,7 +17,9 @@ description: 区分内置工具、机理模型工具、外部 Skill 与协议适
 | 单个工具 | 一个明确的机理或业务操作 | `individual_tools` | 参数 Schema 必须稳定 |
 | 工具库 | 一组可一起复用的相关工具 | `tool_libraries` | 避免把无关工具全部暴露给模型 |
 | 外部 Skill | 跨项目复用的高层能力 | `external_skills` | 固定版本快照并观察副作用 |
-| MCP 适配 | 对接外部 MCP Server | 协议/网关适配层 | 先验证权限、超时和结果格式 |
+| MCP Server | 对接符合 MCP 的外部工具服务 | **Skills 工具包 → MCP Servers** | 先验证权限、超时和结果格式 |
+
+平台已经提供 MCP Server 的注册、工具发现、智能体绑定和运行时调用链路。完整操作步骤、配置字段和排障方法见 [MCP Server](../resources/mcp.md)。
 
 ## 工具调用约定
 
