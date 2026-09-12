@@ -103,6 +103,12 @@ body {
   background: var(--gaga-surface-muted);
 }
 
+.theme-doc-markdown img[src*="/img/orchestration/editor/"] {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .alert {
   border: 1px solid var(--gaga-border);
   border-left-width: 4px;

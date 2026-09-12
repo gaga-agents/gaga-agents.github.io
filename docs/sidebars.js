@@ -66,7 +66,11 @@ const sidebars = {
     {
       type: 'category',
       label: '多智能体编排',
-      items: ['orchestration/design', 'orchestration/a2a'],
+      items: [
+        'orchestration/editor-guide',
+        'orchestration/design',
+        'orchestration/a2a',
+      ],
     },
     {
       type: 'category',
